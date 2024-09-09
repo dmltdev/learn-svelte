@@ -7,6 +7,13 @@ settings:
 importers:
 
   .:
+    dependencies:
+      elizabot:
+        specifier: ^0.0.3
+        version: 0.0.3
+      marked:
+        specifier: ^14.1.2
+        version: 14.1.2
     devDependencies:
       '@sveltejs/vite-plugin-svelte':
         specifier: ^3.1.1
@@ -365,6 +372,9 @@ packages:
     resolution: {integrity: sha512-reYkTUJAZb9gUuZ2RvVCNhVHdg62RHnJ7WJl8ftMi4diZ6NWlciOzQN88pUhSELEwflJht4oQDv0F0BMlwaYtA==}
     engines: {node: '>=8'}
 
+  elizabot@0.0.3:
+    resolution: {integrity: sha512-giwweEawiOHLS8eMPNtpLJaYxWZIHxtJcoq0NyvtEqVx2pxZ8XX1AXHHx84hUK3Scl8vk4U4lEatG54nsMZo+Q==}
+
   es6-promise@3.3.1:
     resolution: {integrity: sha512-SOp9Phqvqn7jtEUxPWdWfWoLmyt2VaJ6MpvP9Comy1MceMXqE6bxvaTu4iaxpYYPzhny28Lc+M87/c2cPK6lDg==}
 
@@ -434,6 +444,11 @@ packages:
 
   magic-string@0.30.11:
     resolution: {integrity: sha512-+Wri9p0QHMy+545hKww7YAu5NyzF8iomPL/RQazugQ9+Ez4Ic3mERMd8ZTX5rfK944j+560ZJi8iAwgak1Ac7A==}
+
+  marked@14.1.2:
+    resolution: {integrity: sha512-f3r0yqpz31VXiDB/wj9GaOB0a2PRLQl6vJmXiFrniNwjkKdvakqJRULhjFKJpxOchlCRiG5fcacoUZY5Xa6PEQ==}
+    engines: {node: '>= 18'}
+    hasBin: true
 
   mdn-data@2.0.30:
     resolution: {integrity: sha512-GaqWWShW4kv/G9IEucWScBx9G1/vsFZZJUO+tD26M8J8z3Kw5RDQjaoZe03YAClgeS/SWPOcb4nkFBTEi5DUEA==}
@@ -864,6 +879,8 @@ snapshots:
 
   detect-indent@6.1.0: {}
 
+  elizabot@0.0.3: {}
+
   es6-promise@3.3.1: {}
 
   esbuild@0.21.5:
@@ -950,6 +967,8 @@ snapshots:
   magic-string@0.30.11:
     dependencies:
       '@jridgewell/sourcemap-codec': 1.5.0
+
+  marked@14.1.2: {}
 
   mdn-data@2.0.30: {}
 

@@ -1,5 +1,5 @@
 <script>
-  import { getRandomNumber } from "./../utils";
+  import { getRandomNumber } from "../utils";
 
   let promise = getRandomNumber();
 
@@ -15,5 +15,11 @@
 {:then number}
   <p>The number is {number}</p>
 {:catch error}
-  <p style="color: red">{error.message}</p>
+  <p class="error">{error.message}</p>
 {/await}
+
+<style>
+  p.error {
+    color: red;
+  }
+</style>
